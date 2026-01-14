@@ -12,7 +12,7 @@ CREATE TABLE policies (
     policy_type VARCHAR(10),
     start_date DATE,
     end_date DATE,
-    premium DECIMAL(10,2),
+    policy_fee DECIMAL(10,2),
     FOREIGN KEY (client_id) REFERENCES clients(client_id)
 );
 
@@ -36,13 +36,13 @@ INSERT INTO clients (client_id, first_name, last_name, pesel, city)
 VALUES (3, 'Piotr', 'Wiśniewski', '90112055555', 'Sopot');
 
 -- 2. Policies
-INSERT INTO policies (policy_id, client_id, policy_type, start_date, end_date, premium)
+INSERT INTO policies (policy_id, client_id, policy_type, start_date, end_date, policy_fee)
 VALUES (101, 1, 'OC', '2025-02-15', '2026-02-14', 1200.00);
 
-INSERT INTO policies (policy_id, client_id, policy_type, start_date, end_date, premium)
+INSERT INTO policies (policy_id, client_id, policy_type, start_date, end_date, policy_fee)
 VALUES (102, 2, 'AC', '2024-01-01', '2024-12-31', 2500.00);
 
-INSERT INTO policies (policy_id, client_id, policy_type, start_date, end_date, premium)
+INSERT INTO policies (policy_id, client_id, policy_type, start_date, end_date, policy_fee)
 VALUES (103, 2, 'HOME', '2025-06-01', '2026-05-31', 450.00);
 
 -- 3. Claims
