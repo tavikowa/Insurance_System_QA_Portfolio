@@ -1,0 +1,13 @@
+{
+  "request_type": "CREATE_QUOTE",
+  "client_data": {
+    "first_name": "Test",
+    "last_name": "Error",
+    "pesel": "900101ABCDE",
+    "birth_date": "1990-01-01"
+  },
+  "vehicle_data": {
+    "make": "Toyota",
+    "model": "Yaris"
+  }
+}

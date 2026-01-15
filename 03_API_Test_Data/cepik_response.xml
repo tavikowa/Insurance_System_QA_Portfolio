@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CepikResponse>
+    <VehicleData>
+        <VIN>PL123456789</VIN>
+        <RegistrationNumber>GD 54321</RegistrationNumber>
+        <Make>Toyota</Make>
+        <Model>Yaris</Model>
+        <ProductionYear>2020</ProductionYear>
+        <Engine>
+            <Capacity>1498</Capacity>
+            <FuelType>PETROL</FuelType>
+        </Engine>
+        <Status>REGISTERED</Status>
+        <TechInspectionValidUntil>2026-05-20</TechInspectionValidUntil>
+    </VehicleData>
+    <ResponseStatus>
+        <Code>200</Code>
+        <Message>Vehicle Found</Message>
+    </ResponseStatus>
+</CepikResponse>
