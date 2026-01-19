@@ -1,6 +1,7 @@
 {
   "request_type": "CREATE_QUOTE",
   "client_data": {
+    "client_id": 4,
     "first_name": "Kacper",
     "last_name": "Młody",
     "pesel": "05211212345",

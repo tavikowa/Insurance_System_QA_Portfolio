@@ -1,6 +1,7 @@
 {
   "request_type": "CREATE_QUOTE",
   "client_data": {
+    "client_id": 2,
     "first_name": "Test",
     "last_name": "Error",
     "pesel": "900101ABCDE",
