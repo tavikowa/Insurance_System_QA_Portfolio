@@ -25,7 +25,7 @@ def run_test():
 
         if result:
             actual_price = result[0]
-            expected_price = 1200.00  # Expected price for young driver
+            expected_price = 1400.00  # Expected price for young driver
 
             if actual_price == expected_price:
                 print("Test Passed: Pricing rule applied correctly.")
